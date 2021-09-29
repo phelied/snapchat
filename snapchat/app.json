@@ -1,0 +1,31 @@
+{
+    "expo": {
+        "name": "snapchat",
+        "slug": "snapchat",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon500.png",
+        "splash": {
+            "image": "./assets/icon500.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/icon100.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        },
+        "web": {
+            "favicon": "./assets/icon50.png"
+        },
+        "description": ""
+    }
+}
